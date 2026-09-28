@@ -1679,6 +1679,15 @@ p > i {
     flex-direction: column;
     height: 100%;
 }
+
+.osg-box-list {
+    border-radius: 20px;
+    border: 1px solid #cce8cc;
+    background: #f4fbf4;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
 .osg-section-title {
     color: var(--color-second);
     font-size: 1.2rem;
@@ -1688,16 +1697,16 @@ p > i {
     display: inline-block;
 }
 .osg-exp-title {
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     letter-spacing: 1px;
 }
 
 .osg-staff {
     /* max-width: 100%; */
     width: 600px;
-    height: 350px;
+    height: auto;
     display: block;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 4/3;
     object-fit: cover;
     overflow: hidden;
 }

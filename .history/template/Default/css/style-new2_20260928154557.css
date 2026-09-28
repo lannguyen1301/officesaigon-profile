@@ -2015,7 +2015,7 @@ p > i {
     }
 
     .osg-client-logo {
-        height: 90px; /* Đặt chiều cao cố định để các logo đều nhau */
+        height: 100px; /* Đặt chiều cao cố định để các logo đều nhau */
     }
 }
 

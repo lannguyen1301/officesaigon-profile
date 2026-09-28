@@ -1997,7 +1997,8 @@ p > i {
         aspect-ratio: 3/4;
     }
     .osg-client-logo {
-        height: 120px; /* Đặt chiều cao cố định để các logo đều nhau */
+        height: 100px; /* Đặt chiều cao cố định để các logo đều nhau */
+
     }
 }
 @media screen and (max-width: 950px) {
@@ -2006,16 +2007,19 @@ p > i {
     }
     .osg-client-logo {
         height: 100px; /* Đặt chiều cao cố định để các logo đều nhau */
+        /* width: auto;
+    max-width: 180px;
+    padding: 10px 20px;
+    border: 1px solid var(--border-2);
+    background: var(--color-white);
+    object-fit: contain; 
+    transition: 0.3s ease; */
     }
 }
 
 @media screen and (max-width: 800px) {
     .osg-staff {
         aspect-ratio: 3/4;
-    }
-
-    .osg-client-logo {
-        height: 90px; /* Đặt chiều cao cố định để các logo đều nhau */
     }
 }
 

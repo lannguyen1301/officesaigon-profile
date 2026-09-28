@@ -2013,10 +2013,6 @@ p > i {
     .osg-staff {
         aspect-ratio: 3/4;
     }
-
-    .osg-client-logo {
-        height: 90px; /* Đặt chiều cao cố định để các logo đều nhau */
-    }
 }
 
 @media screen and (max-width: 768px) {

@@ -1793,7 +1793,7 @@ p > i {
     padding: 10px 0;
 }
 .osg-client-logo {
-    height: 80px; /* Đặt chiều cao cố định để các logo đều nhau */
+    height: 150px; /* Đặt chiều cao cố định để các logo đều nhau */
     width: auto;
     max-width: 180px;
     padding: 10px 20px;
@@ -2013,6 +2013,10 @@ p > i {
     }
     .osg-slider-btn {
         display: none;
+    }
+
+    .osg-staff {
+        aspect-ratio: 4/3;
     }
 }
 

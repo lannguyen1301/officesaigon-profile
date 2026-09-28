@@ -1,0 +1,372 @@
+<!-- quy trình xác minh thông tin -->
+  <div class="os-section mt-30">
+	<div class="os-verify-wrapper os-radius">
+
+	  <!-- Header -->
+	  <div class="os-verify-head mb-20">
+		<h2 class="title-pri t-csec t-upper f-thr txt-spl is-inview mb-10"
+		  style="border-left: 4px solid var(--color-second); padding-left: 12px; font-size: 2.2rem;">
+		  Quy trình xác minh thông tin tòa nhà tại Office Saigon
+		</h2>
+		<p class="os-text-justify">Minh bạch nguồn dữ liệu, người thực hiện và thời điểm kiểm duyệt.</p>
+	  </div>
+
+	  <!-- 4 Bước Quy trình -->
+	  <div class="os-verify-steps mb-20">
+		<!-- Bước 1 -->
+		<div class="os-vstep-card os-radius">
+		  <div class="os-vstep-top">
+			<span class="os-vstep-num">1</span>
+			<span class="os-vstep-ic"><i class="fa-regular fa-file-lines"></i></span>
+		  </div>
+		  <div class="os-vstep-info">
+			<p class="bold txt-blue mb-5">Thu thập thông tin</p>
+			<p class="os-vstep-desc">Tổng hợp hồ sơ tòa nhà, hình ảnh khảo sát, bảng giá, diện tích và điều kiện
+			  thuê.</p>
+		  </div>
+		  <i class="fa-solid fa-chevron-right os-vstep-arr"></i>
+		</div>
+
+		<!-- Bước 2 -->
+		<div class="os-vstep-card os-radius">
+		  <div class="os-vstep-top">
+			<span class="os-vstep-num">2</span>
+			<span class="os-vstep-ic"><i class="fa-solid fa-magnifying-glass-chart"></i></span>
+		  </div>
+		  <div class="os-vstep-info">
+			<p class="bold txt-blue mb-5">Đối chiếu dữ liệu</p>
+			<p class="os-vstep-desc">Bộ phận Leasing kiểm tra địa chỉ, thông số, giá thuê, chi phí và diện tích
+			  trống.</p>
+		  </div>
+		  <i class="fa-solid fa-chevron-right os-vstep-arr"></i>
+		</div>
+
+		<!-- Bước 3 -->
+		<div class="os-vstep-card os-radius">
+		  <div class="os-vstep-top">
+			<span class="os-vstep-num">3</span>
+			<span class="os-vstep-ic"><i class="fa-solid fa-shield-check"></i></span>
+		  </div>
+		  <div class="os-vstep-info">
+			<p class="bold txt-blue mb-5">Kiểm duyệt chuyên môn</p>
+			<p class="os-vstep-desc">Chuyên viên rà soát tính chính xác, nhận xét thực tế và các lưu ý trước khi
+			  thuê.</p>
+		  </div>
+		  <i class="fa-solid fa-chevron-right os-vstep-arr"></i>
+		</div>
+
+		<!-- Bước 4 -->
+		<div class="os-vstep-card os-radius">
+		  <div class="os-vstep-top">
+			<span class="os-vstep-num">4</span>
+			<span class="os-vstep-ic"><i class="fa-solid fa-file-signature"></i></span>
+		  </div>
+		  <div class="os-vstep-info">
+			<p class="bold txt-blue mb-5">Phê duyệt & cập nhật</p>
+			<p class="os-vstep-desc">Lưu người thực hiện, ngày kiểm duyệt, nguồn dữ liệu và phiên bản trước khi
+			  xuất bản.</p>
+		  </div>
+		  <i class="fa-solid fa-chevron-right os-vstep-arr"></i>
+		</div>
+	  </div>
+
+	  <!-- Khối Lưu ý (Info) -->
+	  <div class="os-verify-note os-radius mb-20">
+		<div class="os-vnote-ic"><i class="fa-solid fa-circle-info"></i></div>
+		<p class="os-text-justify">
+		  Office Saigon chỉ thay đổi ngày kiểm duyệt khi nội dung hoặc dữ liệu được rà soát thực tế. AI có thể
+		  hỗ trợ tổng hợp và trình bày; giá thuê, diện tích, chi phí và điều kiện thuê phải được người phụ trách
+		  xác minh trước khi xuất bản.
+		</p>
+	  </div>
+
+	  <!-- Khối Nhân sự -->
+	  <div class="os-verify-profiles border-top pt-20 mb-20">
+
+		<!-- Cột 1: Biên soạn -->
+		<div class="os-vprof-col border-right">
+		  <p class="bold mb-15"><i class="fa-solid fa-user txt-blue"></i> Biên soạn nội dung</p>
+		  <div class="os-vprof-user">
+			<img src="./data/upload/nguoi-bien-soan.jpg" alt="Biên soạn" class="os-vprof-avatar">
+			<div class="os-vprof-text">
+			  <p class="bold txt-blue">Họ tên người biên soạn</p>
+			  <p style="color: #666;">Chuyên viên Nội dung BĐS văn phòng</p>
+			</div>
+		  </div>
+		</div>
+
+		<!-- Cột 2: Kiểm duyệt -->
+		<div class="os-vprof-col">
+		  <p class="bold mb-15"><i class="fa-solid fa-shield-check txt-blue"></i> Kiểm duyệt chuyên môn</p>
+		  <div class="os-vprof-user">
+			<img src="./data/upload/nguoi-kiem-duyet.jpg" alt="Kiểm duyệt" class="os-vprof-avatar">
+			<div class="os-vprof-text">
+			  <p class="bold txt-blue">Họ tên chuyên viên kiểm duyệt</p>
+			  <p style="color: #666;">10+ năm kinh nghiệm cho thuê VP</p>
+			  <p class="mt-5" style="font-size: 1.3rem;">Ngày kiểm duyệt: <span class="bold">15/09/2026</span>
+			  </p>
+			</div>
+		  </div>
+		</div>
+
+	  </div>
+
+	  <!-- Khối Phạm vi kiểm duyệt -->
+	  <div class="os-verify-scope border-top pt-20">
+		<p class="bold mb-15"><i class="fa-solid fa-grid-2 txt-blue"></i> Phạm vi kiểm duyệt</p>
+		<div class="os-vscope-tags">
+		  <span class="os-vtag"><i class="fa-solid fa-location-dot txt-blue"></i> Địa chỉ & vị trí</span>
+		  <span class="os-vtag"><i class="fa-solid fa-gear txt-blue"></i> Thông số kỹ thuật</span>
+		  <span class="os-vtag"><i class="fa-solid fa-coins txt-blue"></i> Giá thuê & chi phí</span>
+		  <span class="os-vtag"><i class="fa-regular fa-file-lines txt-blue"></i> Diện tích trống</span>
+		  <span class="os-vtag"><i class="fa-solid fa-key txt-blue"></i> Điều kiện thuê</span>
+		  <span class="os-vtag"><i class="fa-regular fa-image txt-blue"></i> Hình ảnh & nhận xét</span>
+		</div>
+	  </div>
+
+	</div>
+  </div>
+  
+  // css
+  
+  /* ========================================= */
+/* QUY TRÌNH XÁC MINH THÔNG TIN TOÀ NHÀ      */
+/* ========================================= */
+.os-verify-wrapper {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
+}
+
+.os-verify-steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+.os-vstep-card {
+    border: 1px solid #eeeeee;
+    padding: 20px 15px;
+    background: #fafcff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.os-vstep-top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+.os-vstep-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background: var(--color-second);
+    color: #fff;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 15px;
+}
+.os-vstep-ic {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    color: var(--color-second);
+    background: #e6f0f9;
+    border-radius: 8px;
+}
+.os-vstep-desc {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}
+.os-vstep-arr {
+    display: none; /* Ẩn mũi tên trên PC */
+}
+
+.os-verify-note {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    background: #f0f6fa;
+    padding: 15px 20px;
+    border: 1px solid #e6f0f9;
+}
+.os-vnote-ic {
+    font-size: 20px;
+    color: var(--color-second);
+    margin-top: 2px;
+}
+
+.os-vnote-ic i {
+    font-size: 30px;
+}
+
+.os-verify-profiles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.os-vprof-col.border-right {
+    border-right: 1px solid #eee;
+}
+.os-vprof-user {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.os-vprof-avatar {
+    width: 110px;
+    height: 110px;
+    border: 2.5px solid #135e9c;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.os-vprof-text .txt-blue {
+    font-size: 20px;
+}
+
+.os-vscope-tags {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.os-vtag {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #444;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .os-verify-wrapper {
+        padding: 15px;
+    }
+
+    .os-verify-steps {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .os-vstep-card {
+        flex-direction: row;
+        align-items: center;
+        padding: 15px;
+        gap: 15px;
+    }
+    .os-vstep-top {
+        margin-bottom: 0;
+        gap: 10px;
+        flex-shrink: 0;
+    }
+    .os-vstep-info {
+        flex: 1;
+    }
+    .os-vstep-info .mb-5 {
+        margin-bottom: 0; /* Gắn sát vào tên bước */
+    }
+    .os-vstep-arr {
+        display: block; /* Hiện mũi tên trên Mobile */
+        color: #999;
+        font-size: 14px;
+        flex-shrink: 0;
+    }
+
+    .os-verify-profiles {
+        grid-template-columns: 1fr;
+    }
+    .os-vprof-col.border-right {
+        border-right: none;
+        border-bottom: 1px dashed #eee;
+        padding-bottom: 20px;
+    }
+}
+
+.os-verify-head h2 {
+    font-size: clamp(2.2rem, calc(0.2rem + 2.5vw), 3.2rem) !important;
+}
+
+.os-verify-head p,
+.os-verify-note p {
+    font-size: 1.6rem !important;
+    line-height: 1.6;
+}
+
+.os-vstep-info .txt-blue {
+    font-size: 2rem !important;
+}
+.os-vstep-desc {
+    font-size: 1.6rem !important;
+}
+
+.os-verify-profiles {
+    border-top: none !important;
+    padding-top: 0 !important;
+}
+.os-vprof-col {
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 10px !important;
+    padding: 20px !important;
+    background-color: #fafcff;
+}
+@media screen and (max-width: 768px) {
+    .os-vprof-col.border-right {
+        border-bottom: 1px solid #e0e0e0 !important;
+    }
+}
+
+.os-verify-scope {
+    border-top: none !important;
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 10px !important;
+    padding: 20px !important;
+    background-color: #ffffff;
+}
+
+p.bold.mb-15 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+p > i {
+    font-size: 20px;
+}
+
+/* @media screen and (max-width: 576px) {
+    .os-vscope-tags {
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .os-vscope-tags {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+} */
+
+@media screen and (max-width: 950px) {
+    .os-vscope-tags {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}

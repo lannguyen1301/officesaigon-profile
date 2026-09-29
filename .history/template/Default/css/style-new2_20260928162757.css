@@ -44,6 +44,7 @@
 }
 
 .osg-staff {
+    /* max-width: 100%; */
     width: 600px;
     height: auto;
     display: block;
@@ -125,6 +126,7 @@
     margin-bottom: 5px;
 }
 
+/* ================= MODULE KHÁCH HÀNG & ĐỐI TÁC (LOGO IMAGE + SLIDER) ================= */
 .osg-client-grid {
     display: flex;
     gap: 20px;
@@ -133,13 +135,13 @@
     padding: 10px 0;
 }
 .osg-client-logo {
-    height: 150px;
+    height: 150px; /* Đặt chiều cao cố định để các logo đều nhau */
     width: auto;
     max-width: 225px;
     padding: 10px 20px;
     border: 1px solid var(--border-2);
     background: var(--color-white);
-    object-fit: contain;
+    object-fit: contain; /* Giữ tỷ lệ logo không bị méo */
     transition: 0.3s ease;
 }
 .osg-client-logo:hover {
@@ -148,6 +150,7 @@
     transform: translateY(-4px);
 }
 
+/* Kế thừa cấu trúc Slider (nếu bro chưa khai báo ở module trước) */
 .osg-slider-wrapper {
     position: relative;
     width: 100%;
@@ -230,6 +233,7 @@
     }
 }
 
+/* Slider Khách hàng */
 .osg-slider-wrapper {
     position: relative;
     width: 100%;
@@ -295,6 +299,7 @@
     transform: scale(1.2);
 }
 
+/* Utilities cho module này */
 .osg-shadow-img {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
 }
@@ -328,12 +333,13 @@
 }
 
 /* Responsive */
+
 @media screen and (max-width: 1200px) {
     .osg-staff {
         aspect-ratio: 3/4;
     }
     .osg-client-logo {
-        height: 120px;
+        height: 120px; /* Đặt chiều cao cố định để các logo đều nhau */
     }
 }
 @media screen and (max-width: 950px) {
@@ -341,7 +347,7 @@
         aspect-ratio: 3/4;
     }
     .osg-client-logo {
-        height: 100px;
+        height: 100px; /* Đặt chiều cao cố định để các logo đều nhau */
     }
 }
 
@@ -351,7 +357,7 @@
     }
 
     .osg-client-logo {
-        height: 90px;
+        height: 90px; /* Đặt chiều cao cố định để các logo đều nhau */
     }
 }
 
